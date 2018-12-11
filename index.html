@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+
+    <meta content="width=device-width,initial-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="address=no" name="format-detection"/>
+    <meta name="apple-mobile-web-app-capable" content="no" />
+
+    <meta name="keywords" content="看你有多色,色狼,视力,色弱,瞎子,色块" />  
+    <meta name="description" content="看你有多色是一款休闲小游戏，适合所有人群，找出所有色块里颜色不同的一个，快来比比你的眼力吧" /> 
+    <meta name="author" content="颜海镜">
+    
+    <title>看你有多色</title>
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="" />
+
+    <link rel="stylesheet" href="modules/css/common.scss">
+    <!--STYLE_PLACEHOLDER-->
+</head>
+<body>
+    <div id='wx_pic' style='margin:0 auto;display:none;'>
+        <img src='img/logo_300.jpg' height="300" width="300" />
+    </div>
+    <div class="container">
+        <link rel="import" href="modules/html/home/home.html?__inline">
+        
+        <link rel="import" href="modules/html/header/header.html?__inline">
+
+        <link rel="import" href="modules/html/score/score.html?__inline">
+
+        <link rel="import" href="modules/html/screen/screen.html?__inline">
+        
+        <link rel="import" href="modules/html/footer/footer.html?__inline">
+    </div>
+
+    <script src="lib/mod.js"></script>
+    <!--SCRIPT_PLACEHOLDER-->
+    <script>
+        require.async('app/index.es', function (index) {
+            index.init();
+        });
+    </script>
+
+    <script src="//yanhaijing.com/assets/plugin/tongji/baidu.js"></script>
+</body>
+</html>

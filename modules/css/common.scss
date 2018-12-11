@@ -1,0 +1,19 @@
+@import "compass-mixins/compass";
+@import "mixin";
+
+@import "normalize.css/normalize.css";
+
+@import "layout";
+@import "button";
+
+body {
+    background-color: #FAF8EF;
+}
+a {
+    text-decoration: none;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
